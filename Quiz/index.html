@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title> Meu Quiz</title>
+
+		<link rel="stylesheet" type="text/css" href="estilo.css"/>
+		<script src="script.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<header>
+		<center><img src="QUIZ.png" id="imgCentro" /></center>	
+		<center><h1>HTML CSS JavaScript</h1></center>
+		</header>
+
+		<section id="conteudo">			
+			<form name="meuquiz">
+				<ol> <br>
+					<strong><li>HTML é uma linguagem de:</li></strong><br>
+					<input type="radio" name="p1" value="erro" /> Programação</br>
+					<input type="radio" name="p1" value="certa" /> Marcação</br><br>
+					
+					<strong><li>Qual elemento HTML é usado para especificar um rodapé para um documento ou seção?</li></strong><br>
+					<input type="radio" name="p2" value="erro" /> Section</br>
+					<input type="radio" name="p2" value="erro" /> Header</br>
+					<input type="radio" name="p2" value="certa" /> Footer</br>
+					<input type="radio" name="p2" value="erro" /> Bottom</br><br>
+					
+					<strong><li>Onde em um documento HTML é o local correto para se referir a uma folha de estilos(CSS)? </li></strong><br>
+					<input type="radio" name="p3" value="certa" /> Na seção (head)</br>
+					<input type="radio" name="p3" value="erro" /> No final do documento</br>
+					<input type="radio" name="p3" value="erro" /> Na seção (body)</br><br>
+	
+					<strong><li>Qual propriedade CSS é usada para alterar a cor do texto de um elemento?</li></strong><br>
+					R:<input type="text" name="p4" />
+					
+					<br></br><strong><li>Qual tag HTML é usada para definir uma folha de estilo interna?</li> </strong><br>
+					<input type="radio" name="p5" value="certa" /> Style</br>
+					<input type="radio" name="p5" value="erro" /> CSS</br>
+					<input type="radio" name="p5" value="erro" /> Script</br><br>
+					
+					<strong><li>Dentro de qual elemento HTML nós colocamos o JavaScript?</li> </strong><br>
+					<input type="radio" name="p6" value="erro" /> Javascript</br>
+					<input type="radio" name="p6" value="erro" /> Scripting</br>
+					<input type="radio" name="p6" value="certa" /> Script</br>
+					<input type="radio" name="p6" value="erro" /> Js </br><br>
+					
+					<strong><li>Qual é a sintaxe correta para se referir a um script externo chamado "xxx.js"? </li> </strong><br>
+					<input type="radio" name="p7" value="erro" /> script href = "xxx.js"</br>
+					<input type="radio" name="p7" value="certa" /> script src = "xxx.js"</br>
+					<input type="radio" name="p7" value="erro" /> script name = "xxx.js" </br><br>
+					
+					
+                    <strong><li>O arquivo JavaScript externo deve conter a tag script?.</li> </strong><br>
+					<input type="radio" name="p8" value="erro" /> Verdadeiro</br>
+					<input type="radio" name="p8" value="certa" /> Falso </br><br>
+					
+
+					<strong><li>O significado de CSS é Folha de estilo criativo?</li> </strong><br>
+					<SELECT name="p9">
+						<OPTION VALUE="escolha">escolha</OPTION>
+						<OPTION VALUE="certa">Verdadeiro</OPTION>
+						<OPTION VALUE="erro">Falso</OPTION>
+					</SELECT><br><br>
+					
+					<strong><li>Qual Tag correta  para deixar o cabeçalho maior?</li> </strong><br>
+					<SELECT name="p10">
+						<OPTION VALUE="escolha">escolha</OPTION>
+						<OPTION VALUE="erro">h6</OPTION>
+						<OPTION VALUE="erro">span</OPTION>
+						<OPTION VALUE="erro">head</OPTION>
+						<OPTION VALUE="certa">h1</OPTION>
+						<OPTION VALUE="erro">body</OPTION>
+					</SELECT><br><br>
+
+
+
+					<input type="button" div id="botao" value="Resultado" onClick="quiz();">
+					<input type="reset" div id="botao" value="Limpar"><br><br>
+					<strong> Acertos = </strong>
+					<input  div id="espaco" type="text" size="5" name="resultado" disabled>
+		</ol>
+		</form>
+		</section>
+	  <footer id="rodape">
+	  <div class="container">
+	  <p>Copyright &copy; 2018 - Desenvolvido por Talita Costa - Diciplina Desenvolvimento Web - IFSP-Campinas</p></	
+	  </div>
+      </footer>
+	</body>
+	</html>
+	
